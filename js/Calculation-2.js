@@ -34,4 +34,6 @@ function addBalance() {
     // update the balance in the web
     const currentDepositCom = document.getElementById('deposit-total');
     currentDepositCom.innerText = total;
+
+
 }
