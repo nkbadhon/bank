@@ -6,19 +6,12 @@ function withdrawFunc() {
 
     Balance(1, withdrawValue);
 
-    // // getting the current value 
-    // const depositTotalFromPage = document.getElementById('deposit-total');
-    // const depositTotalstring = depositTotalFromPage.innerText;
-    // const depositTotalstringvalue = parseFloat(depositTotalstring)
-    // console.log(depositTotalstringvalue);
-    // depositTotalFromPage.innerText = depositTotalstringvalue + depositValue;
-
-    // // update in the current balance
-    // const currentBalanceWhole = document.getElementById('balance-total');
-    // const currentBalancetring = currentBalanceWhole.innerText;
-    // const currentBalance = parseFloat(currentBalancetring);
-    // const updatedBalance = currentBalance + depositValue;
-    // currentBalanceWhole.innerText = updatedBalance;
+    // getting the current value 
+    const withdrawTotalFromPage = document.getElementById('withdraw-total');
+    const withdrawTotalstring = withdrawTotalFromPage.innerText;
+    const withdrawTotalstringvalue = parseFloat(withdrawTotalstring);
+    console.log(withdrawTotalstringvalue);
+    withdrawTotalFromPage.innerText = withdrawTotalstringvalue + withdrawValue;
 
 }
 

@@ -14,13 +14,6 @@ function depositFunc() {
     console.log(depositTotalstringvalue);
     depositTotalFromPage.innerText = depositTotalstringvalue + depositValue;
 
-    // // update in the current balance
-    // const currentBalanceWhole = document.getElementById('balance-total');
-    // const currentBalancetring = currentBalanceWhole.innerText;
-    // const currentBalance = parseFloat(currentBalancetring);
-    // const updatedBalance = currentBalance + depositValue;
-    // currentBalanceWhole.innerText = updatedBalance;
-
 }
 
 
